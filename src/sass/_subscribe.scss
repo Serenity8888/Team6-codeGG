@@ -60,6 +60,13 @@
   border-radius: 100px;
   background: #fd9222;
   cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
 }
 
 // ===== MODAL =====
@@ -109,11 +116,12 @@
   justify-content: center;
   padding: 0;
   cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-modal-close:hover,
 .subscribe-modal-close:focus {
-  fill: #FD9222
+  fill: #fd9222;
 }
 
 .subscribe-modal-background {
@@ -168,6 +176,7 @@
   border-radius: 30px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   color: #fafafa;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-modal-input-container:hover,
@@ -217,10 +226,11 @@
   border-radius: 100px;
   background: #fd9222;
   cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-modal-btn:hover,
 .subscribe-modal-btn:focus {
-  color: #FD9222;
-  background-color: #FCF1E0;
+  color: #fd9222;
+  background-color: #fcf1e0;
 }
