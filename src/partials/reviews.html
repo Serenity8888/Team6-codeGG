@@ -136,18 +136,18 @@
         </li>
       </ul>
       <div class="pagination"></div>
-      <button type="button" class="reviews-btn" data-modal-open>
+      <button type="button" class="reviews-btn" reviews-data-modal-open>
         Leave a review
       </button>
     </div>
 
-    <div data-modal class="backdrop is-hidden">
-      <div class="modal">
+    <div reviews-data-modal class="backdrop is-hidden">
+      <div class="reviews-modal">
         <svg
           class="reviews-modal-close"
           width="16"
           height="16"
-          data-modal-close
+          reviews-data-modal-close
         >
           <use href="/src/images/icons.svg#close"></use>
         </svg>
@@ -155,7 +155,7 @@
           LEAVE A REVIEW ABOUT <span>OUR CHOCOLATE</span>
         </h2>
         <form class="reviews-modal-form">
-          <div class="reviews-form-group">
+          <label class="reviews-form-group">
             <input
               type="text"
               id="name"
@@ -163,8 +163,8 @@
               class="reviews-modal-input"
               placeholder="Name"
             />
-          </div>
-          <div class="reviews-form-group">
+          </label>
+          <label class="reviews-form-group">
             <input
               type="email"
               id="email"
@@ -172,8 +172,8 @@
               class="reviews-modal-input"
               placeholder="Email"
             />
-          </div>
-          <div class="reviews-form-group reviews-tel-group">
+          </label>
+          <label class="reviews-form-group reviews-tel-group">
             <input
               type="tel"
               id="phone-number"
@@ -187,7 +187,7 @@
               </svg>
               <span class="country-code"> +380 </span>
             </div>
-          </div>
+          </label>
           <textarea
             id="comment"
             name="comment"
@@ -211,5 +211,4 @@
       },
     });
   </script>
-  <script type="module" src="/src/modal.js"></script>
 </section>

@@ -1,7 +1,8 @@
 .reviews {
   padding-left: 32px;
   padding-right: 32px;
-  margin-bottom: 128px; 
+  margin-top: 128px;
+  margin-bottom: 128px;
 }
 
 .reviews-container {
@@ -101,7 +102,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  width: 222px;
+  min-width: 222px;
   height: 50px;
   padding: 14px 40px;
   border-radius: 100px;
@@ -184,7 +185,7 @@
   pointer-events: none;
 }
 
-.modal {
+.reviews-modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -193,7 +194,7 @@
   background: #fafafa;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 15px;
   padding: 40px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 10;
@@ -295,11 +296,10 @@
 
 .flag-number {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 18px;
   width: 125px;
-  padding-right: 20px;
   margin-right: 28px;
   border-right: 3px solid rgba(17, 17, 17, 0.05);
 }
