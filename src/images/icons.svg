@@ -37,6 +37,11 @@
             </clipPath>
             </defs>
         </symbol>
+
+        <symbol id="line" width="1" height="124" viewBox="0 0 1 124">
+            <line x1="0.5" y1="-2.18557e-08" x2="0.500005" y2="124" stroke="white" stroke-opacity="0.5"/>
+        </symbol>
+
         
         <symbol width="24" height="24" viewBox="0 0 24 24">
             <path d="M2.95799 15.0568L11.0406 1.9886L11.5206 1.48303L17.6974 5.6014L17.7397 8.08665L19.2472 10.5463L12.5874 21.1038L2.95799 15.0568Z"/>
