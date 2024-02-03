@@ -1,56 +1,52 @@
 <section class="our-products">
-    <div></div>
-        <h2 class="products-title">OUR <span class="products-span">PRODUCTS</span></h2>
-        <ul class="products-list list">
-            <li class="products-list-item">
-                <img src="images/products-img1.jpg" width="230" height="201">
-                <p class="product-name">ORANGE</p>
-                <p class="product-type">Dark chocolate</p>
-                <button type="button" class="products-button">45 UAH</button>
-            </li>
-            <li class="products-list-item">
-                <img src="images/products-img2.jpg" width="230" height="201">
-                <h3 class="product-name">APPLE&CRANBERRY</h3>
-                <p class="product-type">Milk chocolate</p>
-                <button type="button" class="products-button">50 UAH</button>
-            </li>
-            <li class="products-list-item">
-                <img src="images/products-img3.jpg" width="230" height="201">
-                <h3 class="product-name">LIME&SEA SALT</h3>
-                <p class="product-type">Dark chocolate</p>
-                <button type="button" class="products-button">66 UAH</button>
-            </li>
-            <li class="products-list-item">
-                <img src="images/products-img4.jpg" width="230" height="201">
-                <h3 class="product-name">PINEAPPLE</h3>
-                <p class="product-type">Dark chocolate</p>
-                <button type="button" class="products-button">54 UAH</button>
-            </li>
-            <li class="products-list-item">
-                <img src="images/products-img1.jpg" width="230" height="201">
-                <p class="product-name">ORANGE</p>
-                <p class="product-type">Dark chocolate</p>
-                <button type="button" class="products-button">45 UAH</button>
-            </li>
-            <li class="products-list-item">
-                <img src="images/products-img2.jpg" width="230" height="201">
-                <h3 class="product-name">APPLE&CRANBERRY</h3>
-                <p class="product-type">Milk chocolate</p>
-                <button type="button" class="products-button">50 UAH</button>
-            </li>
-            <li class="products-list-item">
-                <img src="images/products-img3.jpg" width="230" height="201">
-                <h3 class="product-name">LIME&SEA SALT</h3>
-                <p class="product-type">Dark chocolate</p>
-                <button type="button" class="products-button">66 UAH</button>
-            </li>
-            <li class="products-list-item">
-                <img src="images/products-img4.jpg" width="230" height="201">
-                <h3 class="product-name">PINEAPPLE</h3>
-                <p class="product-type">Dark chocolate</p>
-                <button type="button" class="products-button">54 UAH</button>
-            </li>
-        </ul>
+    <div class="products-container container">
+        <h2 class="products-heading">OUR <span class="span-heading">PRODUCTS</span></h2>
+        <div class="swiper mySwiper">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <div class="swiper-container">
+                        <div class="products-img-container">
+                            <img 
+                            src="/src/images/products-img1.jpg"
+                            width="230px"
+                            height="201px"
+                            alt="orange chocolate">
+                            <p class="product-name">ORANGE</p>
+                            <p class="product-type">Dark chocolate</p>
+                            <button type="button" class="price-btn">45 UAH</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="swiper-container">
+                        <div class="products-img-container">
+                            <img 
+                            src="/src/images/products-img1.jpg"
+                            width="230px"
+                            height="201px"
+                            alt="orange chocolate">
+                            <p class="product-name">ORANGE</p>
+                            <p class="product-type">Dark chocolate</p>
+                            <button type="button" class="price-btn">45 UAH</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pagination"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.mySwiper', {
+      slidesPerView: 4,
+      spaceBetween: 18,
+      pagination: {
+        el: '.pagination',
+        clickable: true,
+      },
+    });
+  </script>
         
 </section>
 
