@@ -1,9 +1,11 @@
 .advantages {
   background: #1e1823;
   display: flex;
+  width: 1200px;
   height: 344px;
   justify-content: center;
   align-items: center;
+  padding: 50px;
   margin: 0 auto;
 }
 
@@ -17,7 +19,7 @@
 
 .advantages-item {
   width: calc((100% - 140px) / 3);
-  height: 244px;
+  min-height: 244px;
   display: flex;
   gap: 18px;
   align-items: center;
@@ -41,7 +43,7 @@
   gap: 18px;
 }
 
-.advantages-heading {
+.advantages-title {
   color: #fff;
   font-family: Montserrat;
   font-size: 18px;
@@ -78,4 +80,18 @@
   justify-content: center;
   align-items: center;
   fill: rgba(253, 146, 34, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

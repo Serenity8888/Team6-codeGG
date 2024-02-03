@@ -26,6 +26,8 @@
             </defs>
         </symbol>
 
+        
+
         <symbol id="flag" width="32" height="25" viewBox="0 0 32 25">
             <g clip-path="url(#clip0_1_1184)">
             <path d="M31.8318 1.05835H0.242676V24.5665H31.8318V1.05835Z" fill="#FFD700"/>
@@ -37,12 +39,15 @@
             </clipPath>
             </defs>
         </symbol>
-
+       
         <symbol id="line" width="1" height="124" viewBox="0 0 1 124">
             <line x1="0.5" y1="-2.18557e-08" x2="0.500005" y2="124" stroke="white" stroke-opacity="0.5"/>
         </symbol>
 
-        
+        <symbol id="list" width="8" height="8" viewBox="0 0 8 8" fill="none">
+            <circle cx="4" cy="4" r="3.5" fill="#4C4C4C" stroke-width="1px" stroke="#ECEDED"/>
+        </symbol>
+
         <symbol width="24" height="24" viewBox="0 0 24 24">
             <path d="M2.95799 15.0568L11.0406 1.9886L11.5206 1.48303L17.6974 5.6014L17.7397 8.08665L19.2472 10.5463L12.5874 21.1038L2.95799 15.0568Z"/>
             <path d="M16.2259 17.9097L5.5868 11.2616M8.52069 6.44905L19.1598 13.0971M7.97248 19.3982L16.7742 4.96051M20.3823 11.0919C18.1025 9.6673 17.2071 8.55395 18.674 6.14767L11.4546 1.63647L2.6529 16.0742L13.2921 22.7223L20.3823 11.0919Z" stroke="#FD9222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -55,6 +60,11 @@
 
         <symbol id="pagination-btn" width="13" height="13" viewBox="0 0 13 13">
             <path d="M6.5 13C10.0899 13 13 10.0899 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13Z" fill-opacity="0.1"/>
+        </symbol>
+
+        <symbol id="play" width="44" height="44" viewBox="0 0 44 44" fill="none">
+            <path d="M15 33V12L35 22.5L15 33Z" fill="rgba(255, 255, 255, 1)"/>
+            <circle cx="22" cy="22" r="21.5" stroke="rgba(255, 255, 255, 1)"/>
         </symbol>
 
         <symbol id="pagination-btn-active" width="28" height="13" viewBox="0 0 28 13">
@@ -131,6 +141,8 @@
 
         <symbol id="icon-menu" width="32" height="32" viewBox="0 0 32 32">
             <path d="M4 16H28M4 8H28M4 24H28" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </symbol>   
+        </symbol>  
+
+        
     </defs>
 </svg>
