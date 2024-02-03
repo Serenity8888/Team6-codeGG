@@ -17,6 +17,7 @@
 
 .advantages-item {
   width: calc((100% - 140px) / 3);
+  height: 244px;
   display: flex;
   gap: 18px;
   align-items: center;
@@ -26,7 +27,7 @@
 .advantages-wrapper {
   display: flex;
   width: 308px;
-  height: 243px;
+  min-height: 244px;
   flex-direction: column;
   align-items: flex-start;
   gap: 22px;
