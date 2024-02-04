@@ -2,14 +2,36 @@
   <div class="how-its-made-container container">
     <h2 class="how-its-made-heading">HOW IT'S <span>MADE?</span></h2>
     <div class="how-its-made-content-container">
-      <iframe
-        class="how-its-made-video"
+      
+      <img
         src="/src/images/how-its-made-desktop.jpg"
-        title="How to make Chocolates"
-      ></iframe>
+        alt="Foreground image"
+      />
       <svg class="how-its-made-icon" width="44" height="44">
         <use href="/src/images/icons.svg#play"></use>
       </svg>
+      
+      <iframe
+        width="600"
+        height="400"
+        src="https://www.youtube.com/embed/G7tmQVmHVo0"
+        title="Homemade Dark Chocolate Recipe | How to make Dark Chocolate | Homemade Sugar free Dark Chocolate"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <!-- <video
+        width="400"
+        height="350"
+        controls
+        poster="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+      >
+        <source
+          src="https://media.geeksforgeeks.org/wp-content/uploads/20200409094356/Placement100-_-GeeksforGeeks2.mp4"
+          type="video/mp4"
+        />
+      </video> -->
+
       <div class="how-its-made-description-container">
         <p class="how-its-made-paragraph">
           Try our chocolates today and discover the perfect balance of flavor
@@ -74,3 +96,9 @@
     </div>
   </div>
 </section>
+ <script>
+      document.querySelector('img').addEventListener('click', function () {
+        this.className = 'active';
+        document.querySelector('iframe').src += '?autoplay=1';
+      });
+    </script>
