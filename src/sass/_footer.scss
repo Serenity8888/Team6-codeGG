@@ -1,0 +1,111 @@
+.footer {
+  background: #1e1823;
+  width: 1200px;
+  height: 270px;
+  padding: 50px 32px;
+  margin: 0 auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 170px;
+}
+
+.footer-wrapper {
+  width: 1136px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 62px;
+}
+
+.footer-description-container {
+  display: flex;
+  gap: 63px;
+}
+
+.footer-contacts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.footer-icon-list {
+  display: flex;
+  gap: 18px;
+}
+
+.footer-navigation-list {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-heading {
+  width: 300px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.56px;
+}
+
+.footer-heading span {
+  color: #fd9222;
+}
+
+.footer-paragraph {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+
+.footer-address-link {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon {
+  stroke: #fff;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-navigation-link {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: -0.28px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-navigation-link:hover,
+.footer-navigation-link:focus,
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: #fd9222;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+  stroke: #fd9222;
+}
