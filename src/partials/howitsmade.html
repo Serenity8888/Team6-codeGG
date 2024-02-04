@@ -2,15 +2,15 @@
   <div class="how-its-made-container container">
     <h2 class="how-its-made-heading">HOW IT'S <span>MADE?</span></h2>
     <div class="how-its-made-content-container">
-      
       <img
         src="/src/images/how-its-made-desktop.jpg"
         alt="Foreground image"
+        id="img"
       />
-      <svg class="how-its-made-icon" width="44" height="44">
+      <svg class="how-its-made-icon" id="svg" width="44" height="44">
         <use href="/src/images/icons.svg#play"></use>
       </svg>
-      
+
       <iframe
         width="600"
         height="400"
@@ -96,9 +96,9 @@
     </div>
   </div>
 </section>
- <script>
-      document.querySelector('img').addEventListener('click', function () {
-        this.className = 'active';
-        document.querySelector('iframe').src += '?autoplay=1';
-      });
-    </script>
+<script>
+  document.querySelector('#img').addEventListener('click', function () {
+    this.className = 'active';
+    document.querySelector('iframe').src += '?autoplay=1';
+  });
+</script>

@@ -95,7 +95,7 @@
   opacity: 1;
 }
 
-img {
+img#img {
   position: absolute;
   cursor: pointer;
   opacity: 1;
@@ -103,16 +103,21 @@ img {
   border-radius: 15px;
 }
 
-.active {
+img#img.active {
+  display: none;
+  cursor: pointer;
   opacity: 0;
-  pointer-events: none;
+  transition: 1s;
+  border-radius: 15px;
 }
 
-.active + svg {
+.active + #svg {
   transition: 1s;
   opacity: 0;
 }
+
 iframe {
   border-radius: 15px;
   border: 0;
+  cursor: pointer;
 }
