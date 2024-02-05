@@ -60,7 +60,7 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: .54px;
+  letter-spacing: 0.54px;
   gap: 4px;
 }
 
@@ -71,7 +71,7 @@ button {
   font-style: italic;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: .54px;
+  letter-spacing: 0.54px;
 }
 
 .icon-logo {
@@ -94,7 +94,7 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
-  letter-spacing: -.28px;
+  letter-spacing: -0.28px;
   transition: color var(--animation);
 }
 
@@ -137,7 +137,11 @@ button {
 }
 
 .hero-background {
-  background: linear-gradient(180deg, var(--black-gradient1) 0%, var(--black-gradient2) 100%),
+  background: linear-gradient(
+      180deg,
+      var(--black-gradient1) 0%,
+      var(--black-gradient2) 100%
+    ),
     url('/src/images/hero-bg.jpg'),
     lightgrey -70.319px -105.03px / 110.32% 139.265% no-repeat;
   background-repeat: no-repeat;
@@ -160,7 +164,7 @@ button {
   font-size: 28px;
   font-weight: 500px;
   line-height: 34px;
-  letter-spacing: -.84px;
+  letter-spacing: -0.84px;
   margin-bottom: 32px;
   cursor: default;
 }
@@ -246,7 +250,7 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
-  letter-spacing: -.42px;
+  letter-spacing: -0.42px;
   cursor: default;
   transition: color var(--animation);
 }
@@ -265,6 +269,20 @@ button {
 .scroll-down {
   fill: var(--orange);
   transition: fill var(--animation);
+}
+
+.scroll-container {
+  width: 163px;
+  height: 53px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #1e1823;
+}
+
+.scroll-container:hover,
+.scroll-container:focus {
+  background: transparent;
 }
 
 .scroll-container:hover p,
@@ -310,7 +328,7 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
-    letter-spacing: -.42px;
+    letter-spacing: -0.42px;
     gap: 4px;
   }
 
@@ -321,12 +339,12 @@ button {
     font-style: italic;
     font-weight: 700;
     line-height: 18px;
-    letter-spacing: -.42px;
+    letter-spacing: -0.42px;
   }
 
   .nav-list,
   .header-socials {
-    display: none
+    display: none;
   }
 
   .burger-menu {
@@ -352,7 +370,11 @@ button {
   }
 
   .hero-background {
-    background: linear-gradient(180deg, var(--black-gradient1) 0%, var(--black-gradient2) 100%),
+    background: linear-gradient(
+        180deg,
+        var(--black-gradient1) 0%,
+        var(--black-gradient2) 100%
+      ),
       url('/src/images/hero-bg.jpg'),
       lightgrey -427.239px -24.924px / 195.428% 103.07% no-repeat;
     background-repeat: no-repeat;
@@ -396,7 +418,7 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
-    letter-spacing: -.42px;
+    letter-spacing: -0.42px;
     gap: 4px;
   }
 
@@ -407,12 +429,12 @@ button {
     font-style: italic;
     font-weight: 700;
     line-height: 18px;
-    letter-spacing: -.42px;
+    letter-spacing: -0.42px;
   }
 
   .nav-list,
   .header-socials {
-    display: none
+    display: none;
   }
 
   .burger-menu {
@@ -440,7 +462,11 @@ button {
   }
 
   .hero-background {
-    background: linear-gradient(180deg, var(--black-gradient1) 0%, var(--black-gradient2) 100%),
+    background: linear-gradient(
+        180deg,
+        var(--black-gradient1) 0%,
+        var(--black-gradient2) 100%
+      ),
       url('/src/images/hero-bg.jpg'),
       lightgrey -427.239px -24.924px / 195.428% 103.07% no-repeat;
     background-repeat: no-repeat;
@@ -463,7 +489,7 @@ button {
     font-size: 20px;
     font-weight: 500px;
     line-height: 24px;
-    letter-spacing: -.6px;
+    letter-spacing: -0.6px;
     margin-bottom: 32px;
     cursor: default;
   }
@@ -520,7 +546,7 @@ button {
     font-style: normal;
     font-weight: 500;
     line-height: 14px;
-    letter-spacing: -.36px;
+    letter-spacing: -0.36px;
     cursor: default;
     transition: color var(--animation);
   }
@@ -547,7 +573,7 @@ button {
 }
 
 .backdrop {
-  background: rgba(46, 47, 66, 0.40);
+  background: rgba(46, 47, 66, 0.4);
   position: fixed;
   width: 100%;
   height: 100%;
