@@ -14,7 +14,7 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
-  position: relative;
+  // position: relative;
 }
 
 .how-its-made-description-container {
@@ -95,15 +95,23 @@
   opacity: 1;
 }
 
-img#img {
+.img-video {
   position: absolute;
+  width: 600px;
+  height: 400px;
+  opacity: 1;
+}
+
+.img-video > #img {
+  position: relative;
   cursor: pointer;
   opacity: 1;
   transition: 1s;
   border-radius: 15px;
+  z-index: 0;
 }
 
-img#img.active {
+.active > img#img {
   display: none;
   cursor: pointer;
   opacity: 0;
@@ -111,7 +119,7 @@ img#img.active {
   border-radius: 15px;
 }
 
-.active + #svg {
+.active #svg {
   transition: 1s;
   opacity: 0;
 }
