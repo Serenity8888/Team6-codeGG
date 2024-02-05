@@ -1,30 +1,105 @@
 <section class="how-its-made">
   <div class="how-its-made-container container">
-    <h2 class="how-its-made-heading">HOW IT'S <span>MADE</span></h2>
-    <ul class="how-its-made-list list">
-      <img src="/src/images/how-its-made-desktop.jpg" />
-      <h3 class="how-its-made-intruction">
-        Try Our chocolates today and <br />
-        discover the perfect balance of flavor
-      </h3>
-      <li class="how-its-made-item">
-        Heat the milk in a saucepan without bringing it to a boil .Add sugar and
-        cocoa powder
-      </li>
-      <li class="how-its-made-item">
-        At the same time, prepare a water bath, Melt the butter on it.
-      </li>
-      <li class="how-its-made-item">
-        "Mix" the milk mixture and already liquid butter, mix thoroughly with a
-        silicone spatula so that the mass becomes uniform and silky
-      </li>
-      <li class="how-its-made-item">
-        Heat the mixture over low heat, letting it barely boil
-      </li>
-      <li class="how-its-made-item">
-        Pour the chocolate into special containers (can be replaced with ice
-        molds), Allow to cool and harden
-      </li>
-    </ul>
+    <h2 class="how-its-made-heading">HOW IT'S <span>MADE?</span></h2>
+    <div class="how-its-made-content-container">
+      <div class="img-video" style="position: absolute">
+        <img
+          src="/src/images/how-its-made-desktop.jpg"
+          alt="Foreground image"
+          id="img"
+        />
+        <svg class="how-its-made-icon" id="svg" width="44" height="44">
+          <use href="/src/images/icons.svg#play"></use>
+        </svg>
+      </div>
+      <iframe
+        width="600"
+        height="400"
+        src="https://www.youtube.com/embed/G7tmQVmHVo0"
+        title="Homemade Dark Chocolate Recipe | How to make Dark Chocolate | Homemade Sugar free Dark Chocolate"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <!-- <video
+        width="400"
+        height="350"
+        controls
+        poster="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+      >
+        <source
+          src="https://media.geeksforgeeks.org/wp-content/uploads/20200409094356/Placement100-_-GeeksforGeeks2.mp4"
+          type="video/mp4"
+        />
+      </video> -->
+
+      <div class="how-its-made-description-container">
+        <p class="how-its-made-paragraph">
+          Try our chocolates today and discover the perfect balance of flavor
+        </p>
+        <ul class="how-its-made-list">
+          <li class="how-its-made-item">
+            <span>
+              <svg class="how-its-made-icon-list" width="8" height="10">
+                <use href="/src/images/icons.svg#list"></use>
+              </svg>
+            </span>
+            <p class="how-its-made-instruction">
+              Heat the milk in a saucepan without bringing it to a boil. Add
+              sugar and cocoa powder
+            </p>
+          </li>
+          <li class="how-its-made-item">
+            <span>
+              <svg class="how-its-made-icon-list" width="8" height="10">
+                <use href="/src/images/icons.svg#list"></use>
+              </svg>
+            </span>
+            <p class="how-its-made-instruction">
+              At the same time, prepare a water bath, Melt the butter on it.
+            </p>
+          </li>
+          <li class="how-its-made-item">
+            <span>
+              <svg class="how-its-made-icon-list" width="8" height="10">
+                <use href="/src/images/icons.svg#list"></use>
+              </svg>
+            </span>
+            <p class="how-its-made-instruction">
+              "Mix" the milk mixture and already liquid butter. Mix thoroughly
+              with a silicone spatula so that the mass becomes uniform and
+              silky.
+            </p>
+          </li>
+          <li class="how-its-made-item">
+            <span>
+              <svg class="how-its-made-icon-list" width="8" height="10">
+                <use href="/src/images/icons.svg#list"></use>
+              </svg>
+            </span>
+            <p class="how-its-made-instruction">
+              Heat the mixture over low heat, letting it barely boil.
+            </p>
+          </li>
+          <li class="how-its-made-item">
+            <span>
+              <svg class="how-its-made-icon-list" width="8" height="10">
+                <use href="/src/images/icons.svg#list"></use>
+              </svg>
+            </span>
+            <p class="how-its-made-instruction">
+              Pour the chocolate into special containers (can be replaced with
+              ice molds), Allow to cool and harden.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
+<script>
+  document.querySelector('.img-video').addEventListener('click', function () {
+    this.className = 'active';
+    document.querySelector('iframe').src += '?autoplay=1';
+  });
+</script>
